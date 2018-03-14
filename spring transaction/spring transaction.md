@@ -1,11 +1,15 @@
 TransactionAspectSupport.invokeWithinTransaction()
 
-事务的提交和回滚：
+spring事务
 PlatformTransactionManager
 commit()
 rollback()
 
+jta事务
+jta的jar包
 TransactionManager
 commit()
 rollback()
+spring对jta事务的实现：
+JtaTransactionManager
 
